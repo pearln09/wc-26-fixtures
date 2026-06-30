@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-06-30T16:33:14.465836+00:00",
+  "fetched_at_utc": "2026-06-30T18:21:08.430395+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14040,7 +14040,7 @@
       "Date": "2026-06-30T17:00:00Z",
       "LocalDate": "2026-06-30T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43854",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
@@ -14061,7 +14061,7 @@
         "IdAssociation": "CIV"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
@@ -14081,8 +14081,8 @@
         "Gender": 1,
         "IdAssociation": "NOR"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -14128,7 +14128,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "61'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -14163,7 +14163,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 78,
       "TimeDefined": true,
