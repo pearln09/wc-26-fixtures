@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-06-30T18:21:08.430395+00:00",
+  "fetched_at_utc": "2026-06-30T19:58:01.040456+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14013,8 +14013,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "69665",
       "IdMatch": "400021514",
       "MatchDay": null,
       "StageName": [
@@ -14040,7 +14046,7 @@
       "Date": "2026-06-30T17:00:00Z",
       "LocalDate": "2026-06-30T12:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43854",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
@@ -14061,7 +14067,7 @@
         "IdAssociation": "CIV"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
@@ -14081,8 +14087,8 @@
         "Gender": 1,
         "IdAssociation": "NOR"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -14128,12 +14134,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "61'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43961",
       "MatchReportUrl": null,
       "PlaceHolderA": "2E",
       "PlaceHolderB": "2I",
@@ -14163,11 +14169,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 78,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151684"
@@ -14294,7 +14300,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -14325,29 +14331,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "USA",
-          "OfficialId": "428431",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Tori PENSO"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Tori Penso"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
@@ -16336,7 +16319,27 @@
         "Gender": 1,
         "IdAssociation": "BRA"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43961",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+        "IdCountry": "NOR",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Norway"
+          }
+        ],
+        "Abbreviation": "NOR",
+        "ShortClubName": "Norway",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "NOR"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
