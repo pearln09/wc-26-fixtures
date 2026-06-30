@@ -32,7 +32,6 @@ def flag(code: str) -> str:
     return FLAG_MAP.get(code, "🏳️")
 
 
-@st.cache_data(ttl=60, show_spinner=False)
 def load_data():
     if not os.path.exists(DATA_PATH):
         return None, None
