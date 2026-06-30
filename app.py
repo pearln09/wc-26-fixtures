@@ -97,59 +97,15 @@ def build_standings(group_matches):
     return df[["Team", "P", "W", "D", "L", "GD", "Pts"]]
 
 
-def get_stage_matches(matches, *keywords):
-    out = []
-    for m in matches:
-        s = m.get("StageName", [{}])[0].get("Description", "").lower()
-        if any(k in s for k in keywords):
-            out.append(m)
-    out.sort(key=lambda m: m["Date"])
-    return out
-
-
-KNOCKOUT_ORDER = [
-    "round of 32", "round of 16", "quarter-final", "quarter final",
-    "semi-final", "semi final", "play-off for third place", "third place", "final",
-]
-
-
-def knockout_rank(stage_desc: str) -> int:
-    s = stage_desc.lower()
-    for i, key in enumerate(KNOCKOUT_ORDER):
-        if key in s:
-            return i
-    return len(KNOCKOUT_ORDER)
-
-
-# ---------------- Mobile-friendly global styling ----------------
-st.markdown("""
-<style>
-    .stApp { background: linear-gradient(135deg, #7ed957 0%, #1ea36b 55%, #0f7a52 100%); }
-    .main .block-container { padding-top: 1.5rem; padding-left: 1rem; padding-right: 1rem; max-width: 1300px; }
-    h1 { color:#fff !important; text-shadow:0 2px 6px rgba(0,0,0,0.25); text-align:center; font-size: clamp(22px, 5vw, 38px) !important; }
-    h2 { color:#fff !important; text-shadow:0 1px 4px rgba(0,0,0,0.3); border-bottom:2px solid rgba(255,255,255,0.3); padding-bottom:8px; margin-top:2rem; font-size: clamp(18px, 4vw, 26px) !important; }
-    h3 { color:#fff !important; background:#0b3d39; padding:8px 14px; border-radius:6px; font-size: clamp(14px, 3.5vw, 17px) !important; }
-    [data-testid="stVerticalBlockBorderWrapper"] {
-        background:#fff; border-radius:10px !important; box-shadow:0 6px 14px rgba(0,0,0,0.18); border:none !important;
-    }
-    .stDataFrame { border-radius:8px; overflow:hidden; font-size: 13px; }
-
-    /* Tighten things up on small screens */
-    @media (max-width: 640px) {
-        .main .block-container { padding-left: 0.6rem; padding-right: 0.6rem; }
-        [data-testid="column"] { padding: 0 4px !important; }
-        .stDataFrame { font-size: 11px; }
-    }
-</style>
-""", unsafe_allow_html=True)
-
+# ---------------- UI ----------------
 st.title("🏆 FIFA World Cup 26 — Tracker")
-st.caption("Group standings, knockout fixtures (Round of 32 through the Final) & live scores — times in IST")
+st.caption("Group standings, knockout fixtures (Round of 32 through the Final) & live scores — times shown in IST")
 
 matches, fetched_at = load_data()
 
 if matches is None:
-    st.error("No data file found yet. Run the GitHub Actions fetcher at least once.")
+    st.error("No data file found yet. The background fetcher (GitHub Actions) hasn't run for the first time, "
+              "or hasn't pushed data/matches.json. Trigger it manually from the Actions tab if needed.")
     st.stop()
 
 if fetched_at:
@@ -159,7 +115,8 @@ if fetched_at:
 
 # ---- Group Stage ----
 st.header("Group Stage")
-group_matches = get_stage_matches(matches, "group", "first stage")
+group_matches = [m for m in matches if "group" in (m.get("StageName", [{}])[0].get("Description", "").lower())
+                  or "first stage" in (m.get("StageName", [{}])[0].get("Description", "").lower())]
 
 if not group_matches:
     st.info("No group-stage data in the latest snapshot.")
@@ -168,8 +125,8 @@ else:
     for m in group_matches:
         g = m.get("GroupName", [{}])[0].get("Description", "Group ?")
         groups.setdefault(g, []).append(m)
+
     group_names = sorted(groups.keys())
-    # 2 columns on desktop, Streamlit auto-stacks to 1 column on narrow/mobile screens
     cols = st.columns(2)
     for i, gname in enumerate(group_names):
         with cols[i % 2]:
@@ -177,8 +134,28 @@ else:
             df = build_standings(groups[gname])
             st.dataframe(df, hide_index=True, use_container_width=True)
 
-# ---- Knockout Stage (Round of 32 through Final), simple stacked cards ----
+# ---- Knockout Stage (Round of 32 through Final) ----
 st.header("Knockout Stage")
+
+KNOCKOUT_ORDER = [
+    "round of 32",
+    "round of 16",
+    "quarter-final",
+    "quarter final",
+    "semi-final",
+    "semi final",
+    "play-off for third place",
+    "third place",
+    "final",
+]
+
+def knockout_rank(stage_desc: str) -> int:
+    s = stage_desc.lower()
+    for i, key in enumerate(KNOCKOUT_ORDER):
+        if key in s:
+            return i
+    return len(KNOCKOUT_ORDER)
+
 
 knockout_matches = [
     m for m in matches
@@ -199,34 +176,20 @@ else:
     for stage_name in ordered_stage_names:
         stage_matches = sorted(stages[stage_name], key=lambda m: m["Date"])
         st.subheader(stage_name)
-        # 2 columns on desktop, stacks to 1 on phones automatically
         cols = st.columns(2)
         for i, m in enumerate(stage_matches):
             with cols[i % 2]:
                 with st.container(border=True):
                     status = derive_status(m)
+                    st.markdown(f"**{status}**  ·  {m.get('Stadium', {}).get('Name', [{}])[0].get('Description', '')}")
                     hs = (m.get("Home") or {}).get("Score")
                     aw = (m.get("Away") or {}).get("Score")
-                    badge_color = "#e0432b" if "Live" in status else ("#0b3d39" if status == "Full Time" else "#6b7a76")
-                    st.markdown(f"""
-                    <div style="padding:2px 0;">
-                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:4px;">
-                        <span style="font-size:11px; color:#7a8a85;">{m.get('Stadium', {}).get('Name', [{{}}])[0].get('Description', '')}</span>
-                        <span style="background:{badge_color}; color:#fff; font-size:10px; font-weight:700; padding:2px 10px; border-radius:10px; white-space:nowrap;">{status}</span>
-                      </div>
-                      <div style="display:flex; justify-content:space-between; align-items:center; padding:3px 0;">
-                        <span style="font-weight:700; font-size:14.5px;">{flag(team_code(m.get('Home')))} {team_name(m.get('Home'))}</span>
-                        <span style="font-weight:800; font-size:16px; color:#0b3d39;">{'–' if hs is None else hs}</span>
-                      </div>
-                      <div style="display:flex; justify-content:space-between; align-items:center; padding:3px 0;">
-                        <span style="font-weight:700; font-size:14.5px;">{flag(team_code(m.get('Away')))} {team_name(m.get('Away'))}</span>
-                        <span style="font-weight:800; font-size:16px; color:#0b3d39;">{'–' if aw is None else aw}</span>
-                      </div>
-                      <div style="margin-top:8px; padding-top:8px; border-top:1px dashed #e4e4e4; font-size:12px; color:#5c6e69;">
-                        🕒 {to_ist(m['Date'])}
-                      </div>
-                    </div>
-                    """, unsafe_allow_html=True)
+                    st.markdown(
+                        f"{flag(team_code(m.get('Home')))} **{team_name(m.get('Home'))}** — "
+                        f"{'–' if hs is None else hs} : {'–' if aw is None else aw} — "
+                        f"**{team_name(m.get('Away'))}** {flag(team_code(m.get('Away')))}"
+                    )
+                    st.caption(f"🕒 {to_ist(m['Date'])}")
         st.markdown("")
 
 st.divider()
