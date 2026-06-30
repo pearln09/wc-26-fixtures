@@ -65,6 +65,65 @@ def derive_status(m):
         return "Live" + (f" {m.get('MatchTime')}" if m.get("MatchTime") else "")
     return "Full Time"
 
+def knockout_result(m):
+    home = m.get("Home") or {}
+    away = m.get("Away") or {}
+
+    home_name = team_name(home)
+    away_name = team_name(away)
+
+    hs = m.get("HomeTeamScore")
+    aw = m.get("AwayTeamScore")
+
+    if hs is None or aw is None:
+        return None, None, None
+
+    winner = m.get("Winner")
+    home_id = home.get("IdTeam")
+    away_id = away.get("IdTeam")
+
+    if winner == home_id:
+        winner_name = home_name
+    elif winner == away_id:
+        winner_name = away_name
+    else:
+        winner_name = None
+
+    match_time = m.get("MatchTime", "")
+    result_type = m.get("ResultType")
+
+    # -------- Penalty Shootout --------
+    hp = m.get("HomeTeamPenaltyScore")
+    ap = m.get("AwayTeamPenaltyScore")
+
+    if hp is not None and ap is not None:
+        return winner_name, (
+            f"🏆 **{winner_name}** won **{max(hp, ap)}–{min(hp, ap)}** "
+            f"on penalties after a **{hs}–{aw}** draw."
+        )
+
+    # -------- Normal / Extra Time --------
+    if winner_name:
+
+        try:
+            minute = int(match_time.replace("'", ""))
+        except:
+            minute = 90
+
+        if minute > 120 or result_type == 2:
+            ending = "after penalties"
+        elif minute > 90:
+            ending = "after extra time"
+        else:
+            ending = "after regular time"
+
+        return winner_name, (
+            f"🏆 **{winner_name}** won **{max(hs, aw)}–{min(hs, aw)}** "
+            f"{ending}."
+        )
+
+    return None, None
+
 
 def build_standings(group_matches):
     teams = {}
@@ -180,18 +239,33 @@ else:
         for i, m in enumerate(stage_matches):
             with cols[i % 2]:
                 with st.container(border=True):
-                    if st.checkbox(f"Debug {m['IdMatch']}", key=m["IdMatch"]):
-                        st.json(m)
                     status = derive_status(m)
                     st.markdown(f"**{status}**  ·  {m.get('Stadium', {}).get('Name', [{}])[0].get('Description', '')}")
                     hs = (m.get("Home") or {}).get("Score")
                     aw = (m.get("Away") or {}).get("Score")
+                    winner_name, result_text = knockout_result(m)
+
+                    home_name = team_name(m.get("Home"))
+                    away_name = team_name(m.get("Away"))
+
+                    if winner_name == home_name:
+                        home_display = f"**{home_name}**"
+                        away_display = away_name
+                    elif winner_name == away_name:
+                        home_display = home_name
+                        away_display = f"**{away_name}**"
+                    else:
+                        home_display = home_name
+                        away_display = away_name
+
                     st.markdown(
-                        f"{flag(team_code(m.get('Home')))} **{team_name(m.get('Home'))}** — "
+                        f"{flag(team_code(m.get('Home')))} {home_display} — "
                         f"{'–' if hs is None else hs} : {'–' if aw is None else aw} — "
-                        f"**{team_name(m.get('Away'))}** {flag(team_code(m.get('Away')))}"
+                        f"{away_display} {flag(team_code(m.get('Away')))}"
                     )
                     st.caption(f"🕒 {to_ist(m['Date'])}")
+                    if result_text:
+                        st.caption(result_text)
         st.markdown("")
 
 st.divider()
