@@ -10,6 +10,13 @@ st.set_page_config(page_title="WC26 Tracker", page_icon="🏆", layout="wide")
 DATA_PATH = "data/matches.json"
 IST = pytz.timezone("Asia/Kolkata")
 
+is_mobile = (
+    hasattr(st, "context")
+    and hasattr(st.context, "viewport_width")
+    and st.context.viewport_width is not None
+    and st.context.viewport_width < 700
+)
+
 FLAG_MAP = {
     "MEX":"🇲🇽","RSA":"🇿🇦","KOR":"🇰🇷","CAN":"🇨🇦","QAT":"🇶🇦","SUI":"🇨🇭",
     "BRA":"🇧🇷","MAR":"🇲🇦","HAI":"🇭🇹","SCO":"🏴","USA":"🇺🇸","PAR":"🇵🇾",
@@ -193,7 +200,7 @@ else:
         groups.setdefault(g, []).append(m)
 
     group_names = sorted(groups.keys())
-    cols = st.columns(2)
+    cols = st.columns(1 if is_mobile else 2)
     for i, gname in enumerate(group_names):
         with cols[i % 2]:
             st.subheader(gname)
@@ -242,7 +249,7 @@ else:
     for stage_name in ordered_stage_names:
         stage_matches = sorted(stages[stage_name], key=lambda m: m["Date"])
         st.subheader(stage_name)
-        cols = st.columns(2)
+        cols = st.columns(1 if is_mobile else 2)
         for i, m in enumerate(stage_matches):
             with cols[i % 2]:
                 with st.container(border=True):
