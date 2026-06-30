@@ -180,6 +180,8 @@ else:
         for i, m in enumerate(stage_matches):
             with cols[i % 2]:
                 with st.container(border=True):
+                    if st.checkbox(f"Debug {m['IdMatch']}", key=m["IdMatch"]):
+                        st.json(m)
                     status = derive_status(m)
                     st.markdown(f"**{status}**  ·  {m.get('Stadium', {}).get('Name', [{}])[0].get('Description', '')}")
                     hs = (m.get("Home") or {}).get("Score")
