@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-06-30T15:20:52.772701+00:00",
+  "fetched_at_utc": "2026-06-30T16:33:14.465836+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14045,7 +14045,7 @@
         "IdTeam": "43854",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
         "IdCountry": "CIV",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14066,7 +14066,7 @@
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
         "IdCountry": "NOR",
-        "Tactics": null,
+        "Tactics": "4-2-1-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14128,7 +14128,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -14159,29 +14159,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "PAR",
-          "OfficialId": "416159",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Juan Gabriel BENITEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Juan Gabriel Ben\u00edtez"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
