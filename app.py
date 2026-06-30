@@ -75,54 +75,61 @@ def knockout_result(m):
     hs = m.get("HomeTeamScore")
     aw = m.get("AwayTeamScore")
 
+    if hs is None:
+        hs = home.get("Score")
+
+    if aw is None:
+        aw = away.get("Score")
+
     if hs is None or aw is None:
-        return None, None, None
+        return None, None
 
-    winner = m.get("Winner")
-    home_id = home.get("IdTeam")
-    away_id = away.get("IdTeam")
+    winner = str(m.get("Winner")) if m.get("Winner") is not None else None
 
-    if winner == home_id:
+    if winner == str(home.get("IdTeam")):
         winner_name = home_name
-    elif winner == away_id:
+    elif winner == str(away.get("IdTeam")):
         winner_name = away_name
     else:
-        winner_name = None
+        return None, None
 
-    match_time = m.get("MatchTime", "")
-    result_type = m.get("ResultType")
-
-    # -------- Penalty Shootout --------
+    # -----------------------------
+    # Penalty shootout
+    # -----------------------------
     hp = m.get("HomeTeamPenaltyScore")
     ap = m.get("AwayTeamPenaltyScore")
 
     if hp is not None and ap is not None:
-        return winner_name, (
+        text = (
             f"🏆 **{winner_name}** won **{max(hp, ap)}–{min(hp, ap)}** "
             f"on penalties after a **{hs}–{aw}** draw."
         )
+        return winner_name, text
 
-    # -------- Normal / Extra Time --------
-    if winner_name:
+    # -----------------------------
+    # Regular time / Extra time
+    # -----------------------------
+    result_type=m.get("ResultType")
+    minute = 90
 
-        try:
-            minute = int(match_time.replace("'", ""))
-        except:
-            minute = 90
+    try:
+        minute = int(str(m.get("MatchTime", "90")).replace("'", ""))
+    except:
+        pass
 
-        if minute > 120 or result_type == 2:
-            ending = "after penalties"
-        elif minute > 90:
-            ending = "after extra time"
-        else:
-            ending = "after regular time"
+    if result_type==2:
+        ending = "after penalties"
+    elif minute>90:
+        ending="after extra time"
+    else:
+        ending = "after regular time"
 
-        return winner_name, (
-            f"🏆 **{winner_name}** won **{max(hs, aw)}–{min(hs, aw)}** "
-            f"{ending}."
-        )
+    text = (
+        f"🏆 **{winner_name}** won "
+        f"**{max(hs, aw)}–{min(hs, aw)}** {ending}."
+    )
 
-    return None, None
+    return winner_name, text
 
 
 def build_standings(group_matches):
@@ -241,8 +248,14 @@ else:
                 with st.container(border=True):
                     status = derive_status(m)
                     st.markdown(f"**{status}**  ·  {m.get('Stadium', {}).get('Name', [{}])[0].get('Description', '')}")
-                    hs = (m.get("Home") or {}).get("Score")
-                    aw = (m.get("Away") or {}).get("Score")
+                    hs = m.get("HomeTeamScore")
+                    aw = m.get("AwayTeamScore")
+
+                    if hs is None:
+                        hs = (m.get("Home") or {}).get("Score")
+
+                    if aw is None:
+                        aw = (m.get("Away") or {}).get("Score")
                     winner_name, result_text = knockout_result(m)
 
                     home_name = team_name(m.get("Home"))
@@ -265,7 +278,10 @@ else:
                     )
                     st.caption(f"🕒 {to_ist(m['Date'])}")
                     if result_text:
-                        st.caption(result_text)
+                        st.markdown(
+                            f"<span style='color:#16a34a;font-weight:600'>{result_text}</span>",
+                            unsafe_allow_html=True
+                        )
         st.markdown("")
 
 st.divider()
