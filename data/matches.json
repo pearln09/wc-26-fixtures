@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-01T15:15:28.898447+00:00",
+  "fetched_at_utc": "2026-07-01T17:25:14.880635+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14599,7 +14599,7 @@
       "IdStage": "289287",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "68239",
       "IdMatch": "400021512",
       "MatchDay": null,
       "StageName": [
@@ -14625,12 +14625,12 @@
       "Date": "2026-07-01T16:00:00Z",
       "LocalDate": "2026-07-01T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
         "IdCountry": "ENG",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14646,12 +14646,12 @@
         "IdAssociation": "ENG"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "20014",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COD",
         "IdCountry": "COD",
-        "Tactics": null,
+        "Tactics": "4-1-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14666,8 +14666,8 @@
         "Gender": 1,
         "IdAssociation": "COD"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -14713,7 +14713,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "61'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -14748,7 +14748,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 80,
       "TimeDefined": true,
