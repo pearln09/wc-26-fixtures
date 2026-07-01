@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-01T21:07:20.143956+00:00",
+  "fetched_at_utc": "2026-07-01T22:39:35.709378+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14771,7 +14771,7 @@
       "IdStage": "289287",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "66925",
       "IdMatch": "400021525",
       "MatchDay": null,
       "StageName": [
@@ -14797,7 +14797,7 @@
       "Date": "2026-07-01T20:00:00Z",
       "LocalDate": "2026-07-01T13:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
@@ -14818,7 +14818,7 @@
         "IdAssociation": "BEL"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43879",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SEN",
@@ -14838,8 +14838,8 @@
         "Gender": 1,
         "IdAssociation": "SEN"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -14885,7 +14885,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "120'+1'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15051,7 +15051,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15082,29 +15082,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "ARG",
-          "OfficialId": "383174",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dario HERRERA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dar\u00edo Herrera"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
