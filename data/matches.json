@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-01T22:39:35.709378+00:00",
+  "fetched_at_utc": "2026-07-01T23:56:40.106966+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -14770,7 +14770,13 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "66925",
       "IdMatch": "400021525",
       "MatchDay": null,
@@ -14797,7 +14803,7 @@
       "Date": "2026-07-01T20:00:00Z",
       "LocalDate": "2026-07-01T13:00:00Z",
       "Home": {
-        "Score": 2,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
@@ -14838,7 +14844,7 @@
         "Gender": 1,
         "IdAssociation": "SEN"
       },
-      "HomeTeamScore": 2,
+      "HomeTeamScore": 3,
       "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -14885,12 +14891,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "120'+1'",
+      "MatchTime": "132'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43935",
       "MatchReportUrl": null,
       "PlaceHolderA": "1G",
       "PlaceHolderB": "3AEHIJ",
@@ -14920,11 +14926,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 3,
       "MatchNumber": 82,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151686"
@@ -14968,7 +14974,7 @@
         "IdTeam": "43921",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
         "IdCountry": "USA",
-        "Tactics": null,
+        "Tactics": "3-5-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -14989,7 +14995,7 @@
         "IdTeam": "44037",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
         "IdCountry": "BIH",
-        "Tactics": null,
+        "Tactics": "5-3-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16746,7 +16752,27 @@
       "Date": "2026-07-07T00:00:00Z",
       "LocalDate": "2026-07-06T17:00:00Z",
       "Home": null,
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43935",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+        "IdCountry": "BEL",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Belgium"
+          }
+        ],
+        "Abbreviation": "BEL",
+        "ShortClubName": "Belgium",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "BEL"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
