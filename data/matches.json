@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-02T21:22:20.660766+00:00",
+  "fetched_at_utc": "2026-07-02T22:37:26.334298+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15297,7 +15297,7 @@
       "ResultType": 1,
       "MatchNumber": 84,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151690"
@@ -15341,7 +15341,7 @@
         "IdTeam": "43963",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
         "IdCountry": "POR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15362,7 +15362,7 @@
         "IdTeam": "43938",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
         "IdCountry": "CRO",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15424,7 +15424,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
