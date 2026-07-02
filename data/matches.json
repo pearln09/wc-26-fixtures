@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-02T16:51:35.235757+00:00",
+  "fetched_at_utc": "2026-07-02T18:26:29.871631+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15252,7 +15252,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15283,29 +15283,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "MTN",
-          "OfficialId": "408591",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dahane BEIDA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Dahane BEIDA"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
