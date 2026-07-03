@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-03T22:29:39.634584+00:00",
+  "fetched_at_utc": "2026-07-03T23:38:06.187076+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15849,7 +15849,7 @@
       "IdStage": "289287",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "64478",
       "IdMatch": "400021521",
       "MatchDay": null,
       "StageName": [
@@ -15896,7 +15896,7 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
@@ -15917,7 +15917,7 @@
         "IdAssociation": "CPV"
       },
       "HomeTeamScore": 1,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15963,7 +15963,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "29'",
+      "MatchTime": "77'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
