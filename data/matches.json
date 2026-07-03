@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-03T01:20:55.092917+00:00",
+  "fetched_at_utc": "2026-07-03T05:28:19.591263+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15446,8 +15446,8 @@
           "OfficialId": "400227",
           "NameShort": [
             {
-              "Locale": "en-GB",
-              "Description": "Espen ESKAS"
+              "Locale": "en-gb",
+              "Description": "E. Esk\u00e5s"
             }
           ],
           "Name": [
@@ -15469,7 +15469,7 @@
       "ResultType": 1,
       "MatchNumber": 83,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151691"
@@ -15481,8 +15481,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "52497",
       "IdMatch": "400021527",
       "MatchDay": null,
       "StageName": [
@@ -15508,12 +15514,12 @@
       "Date": "2026-07-03T03:00:00Z",
       "LocalDate": "2026-07-02T20:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43971",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
         "IdCountry": "SUI",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15529,12 +15535,12 @@
         "IdAssociation": "SUI"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43843",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
         "IdCountry": "ALG",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15549,8 +15555,8 @@
         "Gender": 1,
         "IdAssociation": "ALG"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15596,12 +15602,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43971",
       "MatchReportUrl": null,
       "PlaceHolderA": "1B",
       "PlaceHolderB": "3EFGIJ",
@@ -15631,11 +15637,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 85,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151689"
@@ -17171,7 +17177,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-07T20:00:00Z",
       "LocalDate": "2026-07-07T13:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43971",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+        "IdCountry": "SUI",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Switzerland"
+          }
+        ],
+        "Abbreviation": "SUI",
+        "ShortClubName": "Switzerland",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "SUI"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
