@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-02T23:44:17.702091+00:00",
+  "fetched_at_utc": "2026-07-03T01:20:55.092917+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15309,8 +15309,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "43036",
       "IdMatch": "400021526",
       "MatchDay": null,
       "StageName": [
@@ -15336,7 +15342,7 @@
       "Date": "2026-07-02T23:00:00Z",
       "LocalDate": "2026-07-02T19:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43963",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
@@ -15357,7 +15363,7 @@
         "IdAssociation": "POR"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43938",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
@@ -15377,8 +15383,8 @@
         "Gender": 1,
         "IdAssociation": "CRO"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 2,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15424,12 +15430,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "44'",
+      "MatchTime": "109'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43963",
       "MatchReportUrl": null,
       "PlaceHolderA": "2K",
       "PlaceHolderB": "2L",
@@ -15459,11 +15465,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 83,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151691"
@@ -16779,7 +16785,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-06T19:00:00Z",
       "LocalDate": "2026-07-06T14:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43963",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+        "IdCountry": "POR",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Portugal"
+          }
+        ],
+        "Abbreviation": "POR",
+        "ShortClubName": "Portugal",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "POR"
+      },
       "Away": {
         "Score": null,
         "Side": null,
