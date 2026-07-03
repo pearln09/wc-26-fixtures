@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-03T18:20:31.265052+00:00",
+  "fetched_at_utc": "2026-07-03T19:57:36.689185+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15677,7 +15677,7 @@
       "IdStage": "289287",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "70244",
       "IdMatch": "400021515",
       "MatchDay": null,
       "StageName": [
@@ -15703,7 +15703,7 @@
       "Date": "2026-07-03T18:00:00Z",
       "LocalDate": "2026-07-03T13:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43976",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
@@ -15744,7 +15744,7 @@
         "Gender": 1,
         "IdAssociation": "EGY"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 1,
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -15791,7 +15791,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "20'",
+      "MatchTime": "90'+6'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
