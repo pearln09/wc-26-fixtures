@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-03T19:57:36.689185+00:00",
+  "fetched_at_utc": "2026-07-03T21:16:33.064667+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15676,7 +15676,13 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "70244",
       "IdMatch": "400021515",
       "MatchDay": null,
@@ -15748,8 +15754,8 @@
       "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
-      "HomeTeamPenaltyScore": null,
-      "AwayTeamPenaltyScore": null,
+      "HomeTeamPenaltyScore": 2,
+      "AwayTeamPenaltyScore": 4,
       "LastPeriodUpdate": null,
       "Leg": null,
       "IsHomeMatch": null,
@@ -15791,12 +15797,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "90'+6'",
+      "MatchTime": "129'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43855",
       "MatchReportUrl": null,
       "PlaceHolderA": "2D",
       "PlaceHolderB": "2G",
@@ -15826,11 +15832,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 2,
       "MatchNumber": 88,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151692"
@@ -15874,7 +15880,7 @@
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
         "IdCountry": "ARG",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15895,7 +15901,7 @@
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
         "IdCountry": "CPV",
-        "Tactics": null,
+        "Tactics": "4-1-4-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -15957,7 +15963,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -15988,29 +15994,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "MEX",
-          "OfficialId": "416317",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Katia GARCIA"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Katia Itzel Garc\u00eda"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
@@ -17193,7 +17176,27 @@
       "Date": "2026-07-07T16:00:00Z",
       "LocalDate": "2026-07-07T12:00:00Z",
       "Home": null,
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43855",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+        "IdCountry": "EGY",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Egypt"
+          }
+        ],
+        "Abbreviation": "EGY",
+        "ShortClubName": "Egypt",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "EGY"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
