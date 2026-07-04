@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T17:49:01.246412+00:00",
+  "fetched_at_utc": "2026-07-04T18:46:32.217484+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16216,7 +16216,7 @@
       "IdStage": "289288",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "68777",
       "IdMatch": "400021530",
       "MatchDay": null,
       "StageName": [
@@ -16263,7 +16263,7 @@
         "IdAssociation": "CAN"
       },
       "Away": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43872",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
@@ -16284,7 +16284,7 @@
         "IdAssociation": "MAR"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16330,7 +16330,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "45'+2'",
+      "MatchTime": "82'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
