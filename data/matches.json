@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T15:46:18.893935+00:00",
+  "fetched_at_utc": "2026-07-04T16:45:08.442737+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16247,7 +16247,7 @@
         "IdTeam": "43899",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
         "IdCountry": "CAN",
-        "Tactics": null,
+        "Tactics": "4-4-2",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16268,7 +16268,7 @@
         "IdTeam": "43872",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
         "IdCountry": "MAR",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
