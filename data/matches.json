@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T01:15:50.405497+00:00",
+  "fetched_at_utc": "2026-07-04T04:56:12.258297+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16020,8 +16020,14 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "69045",
       "IdMatch": "400021517",
       "MatchDay": null,
       "StageName": [
@@ -16047,7 +16053,7 @@
       "Date": "2026-07-04T01:30:00Z",
       "LocalDate": "2026-07-03T20:30:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43926",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
@@ -16068,7 +16074,7 @@
         "IdAssociation": "COL"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43860",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GHA",
@@ -16088,8 +16094,8 @@
         "Gender": 1,
         "IdAssociation": "GHA"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16135,12 +16141,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43926",
       "MatchReportUrl": null,
       "PlaceHolderA": "1K",
       "PlaceHolderB": "3DEIJL",
@@ -16170,11 +16176,11 @@
           ]
         }
       ],
-      "MatchStatus": 1,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 87,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151693"
@@ -17321,7 +17327,27 @@
         "Gender": 1,
         "IdAssociation": "SUI"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43926",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+        "IdCountry": "COL",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Colombia"
+          }
+        ],
+        "Abbreviation": "COL",
+        "ShortClubName": "Colombia",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "COL"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
