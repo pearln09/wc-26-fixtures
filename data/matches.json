@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T22:14:43.164516+00:00",
+  "fetched_at_utc": "2026-07-04T23:17:29.001002+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16387,8 +16387,14 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "68324",
       "IdMatch": "400021533",
       "MatchDay": null,
       "StageName": [
@@ -16435,7 +16441,7 @@
         "IdAssociation": "PAR"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
@@ -16456,7 +16462,7 @@
         "IdAssociation": "FRA"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16502,12 +16508,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "50'",
+      "MatchTime": "101'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43946",
       "MatchReportUrl": null,
       "PlaceHolderA": "W74",
       "PlaceHolderB": "W77",
@@ -16537,11 +16543,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 89,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151696"
@@ -17525,7 +17531,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-09T20:00:00Z",
       "LocalDate": "2026-07-09T16:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43946",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+        "IdCountry": "FRA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "France"
+          }
+        ],
+        "Abbreviation": "FRA",
+        "ShortClubName": "France",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "FRA"
+      },
       "Away": {
         "Score": null,
         "Side": null,
