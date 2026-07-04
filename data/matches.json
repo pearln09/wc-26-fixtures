@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T14:39:22.170838+00:00",
+  "fetched_at_utc": "2026-07-04T15:46:18.893935+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16330,7 +16330,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16361,29 +16361,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "NED",
-          "OfficialId": "327159",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Danny MAKKELIE"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Danny Desmond Makkelie"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
