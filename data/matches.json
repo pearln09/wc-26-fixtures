@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T21:12:22.834692+00:00",
+  "fetched_at_utc": "2026-07-04T22:14:43.164516+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16502,7 +16502,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "8'",
+      "MatchTime": "50'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
