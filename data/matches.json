@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-03T23:38:06.187076+00:00",
+  "fetched_at_utc": "2026-07-04T01:15:50.405497+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -15848,7 +15848,13 @@
       "IdSeason": "285023",
       "IdStage": "289287",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "64478",
       "IdMatch": "400021521",
       "MatchDay": null,
@@ -15875,7 +15881,7 @@
       "Date": "2026-07-03T22:00:00Z",
       "LocalDate": "2026-07-03T18:00:00Z",
       "Home": {
-        "Score": 1,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
@@ -15896,7 +15902,7 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43850",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CPV",
@@ -15916,8 +15922,8 @@
         "Gender": 1,
         "IdAssociation": "CPV"
       },
-      "HomeTeamScore": 1,
-      "AwayTeamScore": 1,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -15963,12 +15969,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "77'",
+      "MatchTime": "124'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43922",
       "MatchReportUrl": null,
       "PlaceHolderA": "1J",
       "PlaceHolderB": "2H",
@@ -15998,11 +16004,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 3,
       "MatchNumber": 86,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151694"
@@ -16046,7 +16052,7 @@
         "IdTeam": "43926",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
         "IdCountry": "COL",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16067,7 +16073,7 @@
         "IdTeam": "43860",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GHA",
         "IdCountry": "GHA",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -16129,7 +16135,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16160,29 +16166,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "ESP",
-          "OfficialId": "373845",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Alejandro HERNANDEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Alejandro Jos\u00e9 Hern\u00e1ndez Hern\u00e1ndez"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
@@ -17175,7 +17158,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-07T16:00:00Z",
       "LocalDate": "2026-07-07T12:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43922",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+        "IdCountry": "ARG",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Argentina"
+          }
+        ],
+        "Abbreviation": "ARG",
+        "ShortClubName": "Argentina",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ARG"
+      },
       "Away": {
         "Score": null,
         "Side": null,
