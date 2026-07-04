@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-04T18:46:32.217484+00:00",
+  "fetched_at_utc": "2026-07-04T20:00:34.886623+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16215,7 +16215,13 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "68777",
       "IdMatch": "400021530",
       "MatchDay": null,
@@ -16263,7 +16269,7 @@
         "IdAssociation": "CAN"
       },
       "Away": {
-        "Score": 2,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43872",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
@@ -16284,7 +16290,7 @@
         "IdAssociation": "MAR"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 2,
+      "AwayTeamScore": 3,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -16330,12 +16336,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "82'",
+      "MatchTime": "100'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43872",
       "MatchReportUrl": null,
       "PlaceHolderA": "W73",
       "PlaceHolderB": "W75",
@@ -16365,11 +16371,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 90,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151695"
@@ -16496,7 +16502,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16527,29 +16533,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "QAT",
-          "OfficialId": "361083",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Abdulrahman ALJASSIM"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Abdulrahman AL JASSIM"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
@@ -17543,7 +17526,27 @@
       "Date": "2026-07-09T20:00:00Z",
       "LocalDate": "2026-07-09T16:00:00Z",
       "Home": null,
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43872",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+        "IdCountry": "MAR",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Morocco"
+          }
+        ],
+        "Abbreviation": "MAR",
+        "ShortClubName": "Morocco",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "MAR"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
