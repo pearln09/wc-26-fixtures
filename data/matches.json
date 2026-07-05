@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-05T17:49:38.813722+00:00",
+  "fetched_at_utc": "2026-07-05T18:56:02.918513+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16743,7 +16743,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16774,29 +16774,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "HON",
-          "OfficialId": "400191",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Said MARTINEZ"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Said MARTINEZ"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
