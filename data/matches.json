@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-05T05:11:51.124312+00:00",
+  "fetched_at_utc": "2026-07-05T08:20:44.517399+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -16197,6 +16197,29 @@
               "Description": "Referee"
             }
           ]
+        },
+        {
+          "IdCountry": "ESP",
+          "OfficialId": "373845",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro HERNANDEZ"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Alejandro Jos\u00e9 Hern\u00e1ndez Hern\u00e1ndez"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -16367,6 +16390,29 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "NED",
+          "OfficialId": "327159",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny MAKKELIE"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Danny Desmond Makkelie"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
             }
           ]
         }
@@ -16541,6 +16587,29 @@
               "Description": "Referee"
             }
           ]
+        },
+        {
+          "IdCountry": "QAT",
+          "OfficialId": "361083",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abdulrahman ALJASSIM"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Abdulrahman AL JASSIM"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -16674,7 +16743,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -16863,7 +16932,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17052,7 +17121,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17062,7 +17131,54 @@
       "PlaceHolderA": "W83",
       "PlaceHolderB": "W84",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "ENG",
+          "OfficialId": "360460",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Anthony TAYLOR"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Anthony Taylor"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "GER",
+          "OfficialId": "348147",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Felix ZWAYER"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Felix Zwayer"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 93,
@@ -17194,7 +17310,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17204,7 +17320,54 @@
       "PlaceHolderA": "W81",
       "PlaceHolderB": "W82",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "JOR",
+          "OfficialId": "361034",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Adham MAKHADMEH"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Adham Mohammad Tumah Makhadmeh"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "GAB",
+          "OfficialId": "408417",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Pierre ATCHO"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Pierre Ghislain Atcho"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 94,
@@ -17336,7 +17499,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17478,7 +17641,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17620,7 +17783,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
