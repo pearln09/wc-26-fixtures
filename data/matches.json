@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-06T19:17:44.684874+00:00",
+  "fetched_at_utc": "2026-07-06T21:05:49.979525+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17018,8 +17018,14 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "70649",
       "IdMatch": "400021529",
       "MatchDay": null,
       "StageName": [
@@ -17066,7 +17072,7 @@
         "IdAssociation": "POR"
       },
       "Away": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -17087,7 +17093,7 @@
         "IdAssociation": "ESP"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -17133,12 +17139,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "17'",
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43969",
       "MatchReportUrl": null,
       "PlaceHolderA": "W83",
       "PlaceHolderB": "W84",
@@ -17168,11 +17174,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 93,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151700"
@@ -17919,7 +17925,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-10T19:00:00Z",
       "LocalDate": "2026-07-10T12:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43969",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+        "IdCountry": "ESP",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Spain"
+          }
+        ],
+        "Abbreviation": "ESP",
+        "ShortClubName": "Spain",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ESP"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
