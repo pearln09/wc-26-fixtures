@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-07T22:21:45.181593+00:00",
+  "fetched_at_utc": "2026-07-07T23:30:05.499090+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17580,7 +17580,13 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "52497",
       "IdMatch": "400021535",
       "MatchDay": null,
@@ -17652,8 +17658,8 @@
       "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
-      "HomeTeamPenaltyScore": null,
-      "AwayTeamPenaltyScore": null,
+      "HomeTeamPenaltyScore": 4,
+      "AwayTeamPenaltyScore": 3,
       "LastPeriodUpdate": null,
       "Leg": null,
       "IsHomeMatch": null,
@@ -17695,12 +17701,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "107'",
+      "MatchTime": "130'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43971",
       "MatchReportUrl": null,
       "PlaceHolderA": "W85",
       "PlaceHolderB": "W87",
@@ -17730,11 +17736,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 2,
       "MatchNumber": 96,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151701"
@@ -18219,7 +18225,27 @@
         "Gender": 1,
         "IdAssociation": "ARG"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43971",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+        "IdCountry": "SUI",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Switzerland"
+          }
+        ],
+        "Abbreviation": "SUI",
+        "ShortClubName": "Switzerland",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "SUI"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
