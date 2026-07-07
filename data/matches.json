@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-07T19:22:05.493694+00:00",
+  "fetched_at_utc": "2026-07-07T21:06:36.512970+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17607,12 +17607,12 @@
       "Date": "2026-07-07T20:00:00Z",
       "LocalDate": "2026-07-07T13:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43971",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
         "IdCountry": "SUI",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -17628,12 +17628,12 @@
         "IdAssociation": "SUI"
       },
       "Away": {
-        "Score": null,
+        "Score": 0,
         "Side": null,
         "IdTeam": "43926",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
         "IdCountry": "COL",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -17648,8 +17648,8 @@
         "Gender": 1,
         "IdAssociation": "COL"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 0,
+      "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -17695,7 +17695,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "47'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17730,7 +17730,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 96,
       "TimeDefined": true,
