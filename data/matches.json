@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-07T12:03:59.838988+00:00",
+  "fetched_at_utc": "2026-07-07T15:10:44.257283+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17523,7 +17523,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -17554,29 +17554,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "NOR",
-          "OfficialId": "400227",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Espen ESKAS"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Espen Esk\u00e5s"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
