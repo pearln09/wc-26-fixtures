@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-07T01:27:51.141128+00:00",
+  "fetched_at_utc": "2026-07-07T05:47:07.340461+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17190,8 +17190,14 @@
       "IdSeason": "285023",
       "IdStage": "289288",
       "IdGroup": null,
-      "Weather": null,
-      "Attendance": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
+      "Attendance": "66925",
       "IdMatch": "400021534",
       "MatchDay": null,
       "StageName": [
@@ -17238,7 +17244,7 @@
         "IdAssociation": "USA"
       },
       "Away": {
-        "Score": 3,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
@@ -17259,7 +17265,7 @@
         "IdAssociation": "BEL"
       },
       "HomeTeamScore": 1,
-      "AwayTeamScore": 3,
+      "AwayTeamScore": 4,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -17305,12 +17311,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "63'",
+      "MatchTime": "95'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43935",
       "MatchReportUrl": null,
       "PlaceHolderA": "W81",
       "PlaceHolderB": "W82",
@@ -17340,11 +17346,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 94,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151699"
@@ -17923,7 +17929,27 @@
         "Gender": 1,
         "IdAssociation": "ESP"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43935",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+        "IdCountry": "BEL",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Belgium"
+          }
+        ],
+        "Abbreviation": "BEL",
+        "ShortClubName": "Belgium",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "BEL"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
