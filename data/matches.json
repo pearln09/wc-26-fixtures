@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-09T21:50:47.767212+00:00",
+  "fetched_at_utc": "2026-07-09T23:13:53.217270+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17798,7 +17798,13 @@
       "IdSeason": "285023",
       "IdStage": "289289",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "63811",
       "IdMatch": "400021536",
       "MatchDay": null,
@@ -17913,12 +17919,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "86'",
+      "MatchTime": "97'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43946",
       "MatchReportUrl": null,
       "PlaceHolderA": "W89",
       "PlaceHolderB": "W90",
@@ -17948,11 +17954,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 97,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151703"
@@ -18463,7 +18469,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-14T19:00:00Z",
       "LocalDate": "2026-07-14T14:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43946",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+        "IdCountry": "FRA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "France"
+          }
+        ],
+        "Abbreviation": "FRA",
+        "ShortClubName": "France",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "FRA"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
