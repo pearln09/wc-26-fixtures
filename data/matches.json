@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-09T20:10:27.814077+00:00",
+  "fetched_at_utc": "2026-07-09T21:50:47.767212+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -17799,7 +17799,7 @@
       "IdStage": "289289",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "63811",
       "IdMatch": "400021536",
       "MatchDay": null,
       "StageName": [
@@ -17825,7 +17825,7 @@
       "Date": "2026-07-09T20:00:00Z",
       "LocalDate": "2026-07-09T16:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
@@ -17866,7 +17866,7 @@
         "Gender": 1,
         "IdAssociation": "MAR"
       },
-      "HomeTeamScore": 0,
+      "HomeTeamScore": 2,
       "AwayTeamScore": 0,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
@@ -17913,7 +17913,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "9'",
+      "MatchTime": "86'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
