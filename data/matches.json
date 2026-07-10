@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-10T16:03:13.454988+00:00",
+  "fetched_at_utc": "2026-07-10T17:58:43.978921+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18108,7 +18108,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18139,29 +18139,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "BRA",
-          "OfficialId": "446932",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Ramon ABATTI"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Ramon ABATTI"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
