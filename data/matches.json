@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-10T17:58:43.978921+00:00",
+  "fetched_at_utc": "2026-07-10T19:46:33.391539+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18020,12 +18020,12 @@
       "Date": "2026-07-10T19:00:00Z",
       "LocalDate": "2026-07-10T12:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
         "IdCountry": "ESP",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -18041,12 +18041,12 @@
         "IdAssociation": "ESP"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43935",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
         "IdCountry": "BEL",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -18061,8 +18061,8 @@
         "Gender": 1,
         "IdAssociation": "BEL"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18108,7 +18108,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "45'+1'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18143,7 +18143,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 98,
       "TimeDefined": true,
