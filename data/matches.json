@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-11T21:52:22.418115+00:00",
+  "fetched_at_utc": "2026-07-11T22:51:56.503389+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18189,7 +18189,7 @@
       "IdStage": "289289",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "64478",
       "IdMatch": "400021539",
       "MatchDay": null,
       "StageName": [
@@ -18303,7 +18303,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "90'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
