@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-11T19:50:27.425347+00:00",
+  "fetched_at_utc": "2026-07-11T20:51:55.136471+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18220,7 +18220,7 @@
         "IdTeam": "43961",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
         "IdCountry": "NOR",
-        "Tactics": null,
+        "Tactics": "4-1-2-3",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
@@ -18241,7 +18241,7 @@
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
         "IdCountry": "ENG",
-        "Tactics": null,
+        "Tactics": "4-2-3-1",
         "TeamType": 1,
         "AgeType": 7,
         "TeamName": [
