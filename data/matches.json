@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-11T23:57:23.422751+00:00",
+  "fetched_at_utc": "2026-07-12T03:43:05.830274+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18348,7 +18348,7 @@
       "ResultType": 3,
       "MatchNumber": 99,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151706"
@@ -18361,7 +18361,7 @@
       "IdStage": "289289",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "69045",
       "IdMatch": "400021537",
       "MatchDay": null,
       "StageName": [
@@ -18387,7 +18387,7 @@
       "Date": "2026-07-12T01:00:00Z",
       "LocalDate": "2026-07-11T20:00:00Z",
       "Home": {
-        "Score": null,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
@@ -18408,7 +18408,7 @@
         "IdAssociation": "ARG"
       },
       "Away": {
-        "Score": null,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43971",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
@@ -18428,8 +18428,8 @@
         "Gender": 1,
         "IdAssociation": "SUI"
       },
-      "HomeTeamScore": null,
-      "AwayTeamScore": null,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 1,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18475,7 +18475,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "0'",
+      "MatchTime": "120'+2'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18510,7 +18510,7 @@
           ]
         }
       ],
-      "MatchStatus": 1,
+      "MatchStatus": 3,
       "ResultType": 0,
       "MatchNumber": 100,
       "TimeDefined": true,
