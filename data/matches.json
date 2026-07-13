@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-13T03:46:43.140621+00:00",
+  "fetched_at_utc": "2026-07-13T06:41:11.972658+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18693,7 +18693,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18703,7 +18703,54 @@
       "PlaceHolderA": "W97",
       "PlaceHolderB": "W98",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "SLV",
+          "OfficialId": "408378",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ivan BARTON"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ivan Arcides Barton Cisneros"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "SWE",
+          "OfficialId": "392336",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Glenn NYBERG"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Glenn Nyberg"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 101,
@@ -18835,7 +18882,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
