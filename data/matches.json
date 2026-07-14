@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-14T04:14:51.707814+00:00",
+  "fetched_at_utc": "2026-07-14T06:29:40.921359+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18693,7 +18693,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18882,7 +18882,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18892,7 +18892,54 @@
       "PlaceHolderA": "W99",
       "PlaceHolderB": "W100",
       "BallPossession": null,
-      "Officials": [],
+      "Officials": [
+        {
+          "IdCountry": "USA",
+          "OfficialId": "392406",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ismail ELFATH"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Ismail Elfath"
+            }
+          ],
+          "OfficialType": 1,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ITA",
+          "OfficialId": "415965",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Maurizio MARIANI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Maurizio Mariani"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
+        }
+      ],
       "MatchStatus": 1,
       "ResultType": 0,
       "MatchNumber": 102,
