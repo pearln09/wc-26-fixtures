@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-14T19:23:06.046169+00:00",
+  "fetched_at_utc": "2026-07-14T20:38:33.617752+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18579,7 +18579,7 @@
       "IdStage": "289290",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "70176",
       "IdMatch": "400021541",
       "MatchDay": null,
       "StageName": [
@@ -18626,7 +18626,7 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": 1,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43969",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
@@ -18647,7 +18647,7 @@
         "IdAssociation": "ESP"
       },
       "HomeTeamScore": 0,
-      "AwayTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18693,7 +18693,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "23'",
+      "MatchTime": "76'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
