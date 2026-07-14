@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-14T20:38:33.617752+00:00",
+  "fetched_at_utc": "2026-07-14T21:37:16.068683+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18578,7 +18578,13 @@
       "IdSeason": "285023",
       "IdStage": "289290",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "70176",
       "IdMatch": "400021541",
       "MatchDay": null,
@@ -18693,12 +18699,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "76'",
+      "MatchTime": "98'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43969",
       "MatchReportUrl": null,
       "PlaceHolderA": "W97",
       "PlaceHolderB": "W98",
@@ -18728,11 +18734,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 101,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151707"
@@ -18959,7 +18965,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-18T21:00:00Z",
       "LocalDate": "2026-07-18T17:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43946",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+        "IdCountry": "FRA",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "France"
+          }
+        ],
+        "Abbreviation": "FRA",
+        "ShortClubName": "France",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "FRA"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
@@ -19061,7 +19087,27 @@
       "SeasonShortName": [],
       "Date": "2026-07-19T19:00:00Z",
       "LocalDate": "2026-07-19T15:00:00Z",
-      "Home": null,
+      "Home": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43969",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+        "IdCountry": "ESP",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Spain"
+          }
+        ],
+        "Abbreviation": "ESP",
+        "ShortClubName": "Spain",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ESP"
+      },
       "Away": null,
       "HomeTeamScore": null,
       "AwayTeamScore": null,
