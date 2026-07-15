@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T21:04:37.892142+00:00",
+  "fetched_at_utc": "2026-07-15T22:10:38.312734+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18933,7 +18933,7 @@
       "ResultType": 1,
       "MatchNumber": 102,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151708"
@@ -18992,7 +18992,27 @@
         "Gender": 1,
         "IdAssociation": "FRA"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43942",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+        "IdCountry": "ENG",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "England"
+          }
+        ],
+        "Abbreviation": "ENG",
+        "ShortClubName": "England",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ENG"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
@@ -19114,7 +19134,27 @@
         "Gender": 1,
         "IdAssociation": "ESP"
       },
-      "Away": null,
+      "Away": {
+        "Score": null,
+        "Side": null,
+        "IdTeam": "43922",
+        "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+        "IdCountry": "ARG",
+        "Tactics": null,
+        "TeamType": 1,
+        "AgeType": 7,
+        "TeamName": [
+          {
+            "Locale": "en-GB",
+            "Description": "Argentina"
+          }
+        ],
+        "Abbreviation": "ARG",
+        "ShortClubName": "Argentina",
+        "FootballType": 0,
+        "Gender": 1,
+        "IdAssociation": "ARG"
+      },
       "HomeTeamScore": null,
       "AwayTeamScore": null,
       "AggregateHomeTeamScore": null,
