@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T16:02:54.470680+00:00",
+  "fetched_at_utc": "2026-07-15T17:35:43.467818+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18888,7 +18888,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -18919,29 +18919,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "ITA",
-          "OfficialId": "415965",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Maurizio MARIANI"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Maurizio Mariani"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
