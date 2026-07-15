@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T04:11:42.625142+00:00",
+  "fetched_at_utc": "2026-07-15T06:31:42.819797+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18732,6 +18732,29 @@
               "Description": "Referee"
             }
           ]
+        },
+        {
+          "IdCountry": "SWE",
+          "OfficialId": "392336",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Glenn NYBERG"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Glenn Nyberg"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
+            }
+          ]
         }
       ],
       "MatchStatus": 0,
@@ -18865,7 +18888,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
