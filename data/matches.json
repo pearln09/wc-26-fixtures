@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-15T19:56:07.089957+00:00",
+  "fetched_at_utc": "2026-07-15T21:04:37.892142+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18773,7 +18773,13 @@
       "IdSeason": "285023",
       "IdStage": "289290",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": null,
       "IdMatch": "400021540",
       "MatchDay": null,
@@ -18800,7 +18806,7 @@
       "Date": "2026-07-15T19:00:00Z",
       "LocalDate": "2026-07-15T15:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 1,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -18821,7 +18827,7 @@
         "IdAssociation": "ENG"
       },
       "Away": {
-        "Score": 0,
+        "Score": 2,
         "Side": null,
         "IdTeam": "43922",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
@@ -18841,8 +18847,8 @@
         "Gender": 1,
         "IdAssociation": "ARG"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 0,
+      "HomeTeamScore": 1,
+      "AwayTeamScore": 2,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -18888,12 +18894,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "",
+      "MatchTime": "102'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43922",
       "MatchReportUrl": null,
       "PlaceHolderA": "W99",
       "PlaceHolderB": "W100",
@@ -18923,8 +18929,8 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 102,
       "TimeDefined": true,
       "OfficialityStatus": 0,
