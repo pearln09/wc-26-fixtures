@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-16T06:06:25.425456+00:00",
+  "fetched_at_utc": "2026-07-16T08:32:17.675732+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18925,6 +18925,29 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
+            }
+          ]
+        },
+        {
+          "IdCountry": "ITA",
+          "OfficialId": "415965",
+          "NameShort": [
+            {
+              "Locale": "en-GB",
+              "Description": "Maurizio MARIANI"
+            }
+          ],
+          "Name": [
+            {
+              "Locale": "en-GB",
+              "Description": "Maurizio Mariani"
+            }
+          ],
+          "OfficialType": 4,
+          "TypeLocalized": [
+            {
+              "Locale": "en-GB",
+              "Description": "Fourth official"
             }
           ]
         }
