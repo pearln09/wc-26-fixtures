@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-18T22:29:49.923248+00:00",
+  "fetched_at_utc": "2026-07-18T23:31:57.131441+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18968,7 +18968,13 @@
       "IdSeason": "285023",
       "IdStage": "289291",
       "IdGroup": null,
-      "Weather": null,
+      "Weather": {
+        "Humidity": null,
+        "Temperature": null,
+        "WindSpeed": null,
+        "Type": null,
+        "TypeLocalized": []
+      },
       "Attendance": "64478",
       "IdMatch": "400021542",
       "MatchDay": null,
@@ -18995,7 +19001,7 @@
       "Date": "2026-07-18T21:00:00Z",
       "LocalDate": "2026-07-18T17:00:00Z",
       "Home": {
-        "Score": 3,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
@@ -19016,7 +19022,7 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": 4,
+        "Score": 6,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -19036,8 +19042,8 @@
         "Gender": 1,
         "IdAssociation": "ENG"
       },
-      "HomeTeamScore": 3,
-      "AwayTeamScore": 4,
+      "HomeTeamScore": 4,
+      "AwayTeamScore": 6,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -19083,12 +19089,12 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "67'",
+      "MatchTime": "99'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
       "SecondHalfExtraTime": null,
-      "Winner": null,
+      "Winner": "43942",
       "MatchReportUrl": null,
       "PlaceHolderA": "RU101",
       "PlaceHolderB": "RU102",
@@ -19118,11 +19124,11 @@
           ]
         }
       ],
-      "MatchStatus": 3,
-      "ResultType": 0,
+      "MatchStatus": 0,
+      "ResultType": 1,
       "MatchNumber": 103,
       "TimeDefined": true,
-      "OfficialityStatus": 0,
+      "OfficialityStatus": 2,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151709"
