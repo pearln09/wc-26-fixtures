@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-18T18:36:50.369047+00:00",
+  "fetched_at_utc": "2026-07-18T19:49:17.062906+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -19083,7 +19083,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -19114,29 +19114,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "MAR",
-          "OfficialId": "416524",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Jalal JAYED"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Jalal Jayed"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
