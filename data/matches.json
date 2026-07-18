@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-18T21:31:54.781195+00:00",
+  "fetched_at_utc": "2026-07-18T22:29:49.923248+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -18969,7 +18969,7 @@
       "IdStage": "289291",
       "IdGroup": null,
       "Weather": null,
-      "Attendance": null,
+      "Attendance": "64478",
       "IdMatch": "400021542",
       "MatchDay": null,
       "StageName": [
@@ -18995,7 +18995,7 @@
       "Date": "2026-07-18T21:00:00Z",
       "LocalDate": "2026-07-18T17:00:00Z",
       "Home": {
-        "Score": 0,
+        "Score": 3,
         "Side": null,
         "IdTeam": "43946",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
@@ -19016,7 +19016,7 @@
         "IdAssociation": "FRA"
       },
       "Away": {
-        "Score": 2,
+        "Score": 4,
         "Side": null,
         "IdTeam": "43942",
         "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
@@ -19036,8 +19036,8 @@
         "Gender": 1,
         "IdAssociation": "ENG"
       },
-      "HomeTeamScore": 0,
-      "AwayTeamScore": 2,
+      "HomeTeamScore": 3,
+      "AwayTeamScore": 4,
       "AggregateHomeTeamScore": null,
       "AggregateAwayTeamScore": null,
       "HomeTeamPenaltyScore": null,
@@ -19083,7 +19083,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": "31'",
+      "MatchTime": "67'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
