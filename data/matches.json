@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-19T16:39:02.485824+00:00",
+  "fetched_at_utc": "2026-07-19T17:41:48.342717+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -19278,7 +19278,7 @@
         "IsUpdateable": null
       },
       "IsTicketSalesAllowed": null,
-      "MatchTime": null,
+      "MatchTime": "0'",
       "SecondHalfTime": null,
       "FirstHalfTime": null,
       "FirstHalfExtraTime": null,
@@ -19309,29 +19309,6 @@
             {
               "Locale": "en-GB",
               "Description": "Referee"
-            }
-          ]
-        },
-        {
-          "IdCountry": "JOR",
-          "OfficialId": "361034",
-          "NameShort": [
-            {
-              "Locale": "en-GB",
-              "Description": "Adham MAKHADMEH"
-            }
-          ],
-          "Name": [
-            {
-              "Locale": "en-GB",
-              "Description": "Adham Mohammad Tumah Makhadmeh"
-            }
-          ],
-          "OfficialType": 4,
-          "TypeLocalized": [
-            {
-              "Locale": "en-GB",
-              "Description": "Fourth official"
             }
           ]
         }
