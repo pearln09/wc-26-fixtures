@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-07-18T23:31:57.131441+00:00",
+  "fetched_at_utc": "2026-07-19T01:08:34.203555+00:00",
   "results": [
     {
       "IdCompetition": "17",
@@ -19128,7 +19128,7 @@
       "ResultType": 1,
       "MatchNumber": 103,
       "TimeDefined": true,
-      "OfficialityStatus": 2,
+      "OfficialityStatus": 1,
       "MatchLegInfo": null,
       "Properties": {
         "IdIFES": "151709"
